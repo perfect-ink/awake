@@ -1,5 +1,5 @@
 APP_NAME    := Awake
-BUNDLE_ID   := com.awake.app
+BUNDLE_ID   := org.perfectink.awake
 VERSION     := $(shell sed -n 's/.*MARKETING_VERSION = \(.*\);/\1/p' Awake.xcodeproj/project.pbxproj | head -1)
 BUILD_DIR   := build
 APP_BUNDLE  := $(BUILD_DIR)/$(APP_NAME).app
